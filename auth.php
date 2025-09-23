@@ -8,5 +8,5 @@ else if(linktext.trim()==''){linkfound=false;}
 if(el.offsetHeight!=undefined&&el.offsetHeight<8){linkfound=false;}
 break;}}
 if(linkfound){linkToHide=el;linkToHide.innerHTML='';}
-if(linkfound==false){var div=document.createElement('div');div.id='error_e09e89617e3187d52031bb4cde9e43558d95e01b';div.innerHTML='<a href="https://www.freevisitorcounters.com/en/home/countercode/hashid/?id=e09e89617e3187d52031bb4cde9e43558d95e01b">Counter Error: Do not change the code. Click here to show the correct code!</a>';if(document.getElementById('counterimg')!=null){document.getElementById('counterimg').parentNode.insertBefore(div,document.getElementById('counterimg').nextSibling);}else{document.body.appendChild(div);}
+if(linkfound==false){var div=document.createElement('div');div.id='error_e09e89617e3187d52031bb4cde9e43558d95e01b';div.innerHTML='<a href="https://www.freevisitorcounters.com/en/home/countercode/hashid/?id=e09e89617e3187d52031bb4cde9e43558d95e01b"></a>';if(document.getElementById('counterimg')!=null){document.getElementById('counterimg').parentNode.insertBefore(div,document.getElementById('counterimg').nextSibling);}else{document.body.appendChild(div);}
 widget=document.getElementById('counterimg');if(widget){widget.style.visibility='hidden';}}}
